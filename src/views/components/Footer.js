@@ -7,7 +7,7 @@ function Footer() {
     <div className={stile.footer}>
          <b>
               Questa è una Web App di prova.
-              Vai al mio <Link to="https://github.com/alessflame">account Github </Link>
+              Vai al mio account<a href="https://github.com/alessflame"> Github </a>
               per visualizzare altri progetti.
          </b>
     </div>
