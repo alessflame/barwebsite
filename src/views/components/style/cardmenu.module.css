@@ -1,0 +1,50 @@
+.box{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.section{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+.card{
+     flex-basis: 25%;
+     padding: 15px;
+     margin: 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 250px ;
+     border-radius: 5px;
+     border: 0.5px solid #8697A6;
+     box-shadow: 2px 1px 2px #BFCDD9;
+     flex-grow: 0.5;
+     transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+}
+
+.card:hover{
+     background-color: #8697A6;
+     
+}
+
+.card h3{
+     padding: 5px 0;
+}
+
+.card a{
+     padding: 20px;
+     width: 100%;
+     color: #2756E3;
+     text-decoration: none;
+}
+
+.imageCard{
+     width: 200px;
+     border-radius: 5px;
+}
+
+
+

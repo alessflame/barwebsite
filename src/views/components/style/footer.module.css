@@ -1,0 +1,21 @@
+.footer{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+     height: 100px;
+     color: rgb(247, 243, 243);
+     /* background-color: #4A5B8C */
+     background-color: #2756E3;
+     padding: 10px;
+     text-align: center;
+   }
+
+
+   .footer a{
+    color: rgb(39, 52, 121);
+     text-decoration: none;
+     
+   }
+
+   

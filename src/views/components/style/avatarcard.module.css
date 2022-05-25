@@ -1,0 +1,12 @@
+.card{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 10px 15px;
+}
+
+/* .imagecard{
+width:"250px";
+height:"250px";
+border-radius:"50%"
+} */

@@ -1,0 +1,41 @@
+.section, .sectionReverse{
+     display: flex;
+     justify-content: space-between;
+   }
+
+   .sectionReverse{
+        flex-direction: row-reverse;
+   }
+   
+   .section img, .sectionReverse img{
+     width: 50%;
+   }
+   
+   .sectionBox{
+      width: 80%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: left;
+    
+   }
+
+  
+
+   @media only screen and (max-width : 600px){
+
+     .section, .sectionReverse{
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+     }
+
+     .section img, .sectionReverse img{
+       width: 80%;
+     }
+    
+
+
+        
+   }
